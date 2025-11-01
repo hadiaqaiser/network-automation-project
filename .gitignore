@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+
+# Docker
+*.log
+
+# Ansible
+*.retry
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# AWS / Secrets (never commit keys)
+*.pem
+*.key
+*.pub
+.aws/
+**/aws-credentials*
+**/credentials

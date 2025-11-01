@@ -1,0 +1,8 @@
+docker_packages:
+  - docker
+  - docker-cli
+
+container_name: nsadmin-app
+image_name: yourdockerhubusername/nsadmin-app:latest
+app_port: 3000
+host_port: 80
