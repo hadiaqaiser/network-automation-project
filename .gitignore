@@ -30,3 +30,23 @@ override.tf.json
 .aws/
 **/aws-credentials*
 **/credentials
+# OS/editor
+.DS_Store
+
+# Terraform local cache/state
+.terraform/
+**/.terraform/*
+*.tfstate
+*.tfstate.backup
+.crash
+terraform.tfvars
+
+# Ansible leftovers
+*.retry
+
+# Node
+app/node_modules
+npm-debug.log*
+
+# Docker
+*.local
