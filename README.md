@@ -1,4 +1,4 @@
-# Network Systems & Administration CA Project
+# Network and Systems Administration CA Project
 
 ## What this project does
 - Creates an EC2 server in AWS using Terraform (Infrastructure as Code).
