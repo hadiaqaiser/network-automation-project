@@ -18,15 +18,6 @@ Docker + Node.js	Runs the web application inside a lightweight container.
 AWS CLI	Helps control EC2 and fetch IP automatically for scripts.
 Git + GitHub	Version control and store all the project source code.
 
-Folder Layout
-network-automation-project/
-├── ansible/        → install docker, deploy container
-├── app/            → Node.js + Docker web app (pink theme)
-├── terraform/      → create EC2 instance, security group, IAM role
-├── docs/           → diagrams and report files
-├── start-my-website.sh → one-click script to run everything
-└── README.md
-
 
 Step-by-Step Setup and Commands
 
